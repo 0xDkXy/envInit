@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo -e "copying the vimrc"
+set -e
+echo  "copying the vimrc"
 cat ./dotfile/vimrc > ~/.vimrc
