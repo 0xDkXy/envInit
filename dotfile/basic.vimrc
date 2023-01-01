@@ -24,7 +24,9 @@ set softtabstop=4
 
 set cuc " cursorcolumn highlight
 set cul "highlight the text line of the cursor with cursorLine
-set culopt=both "have no idea about what effect it dose
+if !has('nvim')
+    set culopt=both "have no idea about what effect it dose
+endif
 
 " set linebreak and textwidth
 set wrap
