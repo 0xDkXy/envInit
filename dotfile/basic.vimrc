@@ -51,6 +51,12 @@ set wildmode=longest:list,full
 " Allow backspacing over autoindent, line breaks and start of insert action
 set backspace=indent,eol,start
 
+
+"colorscheme delek
+colorscheme torte
+" the two lines that set hightlight of cursorline and cursorcolumn must be below
+" the line that set the colorscheme
+" or it won't work
 hi CursorLine cterm=NONE ctermbg=darkgrey
 hi CursorColumn cterm=NONE ctermbg=darkgrey
 
