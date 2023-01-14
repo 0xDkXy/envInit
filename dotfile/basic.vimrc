@@ -31,7 +31,7 @@ endif
 " set linebreak and textwidth
 set wrap
 set textwidth=80
-set linebreak
+" set linebreak " I prefer enable linebreak but it makes many problems when programming
 
 "minimal number of screen lines to keep above and below the cursor
 set scrolloff=5 
