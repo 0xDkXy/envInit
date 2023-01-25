@@ -55,7 +55,7 @@ set backspace=indent,eol,start
 
 
 "colorscheme delek
-colorscheme torte
+"colorscheme torte
 " the two lines that set hightlight of cursorline and cursorcolumn must be below
 " the line that set the colorscheme
 " or it won't work
