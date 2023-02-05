@@ -62,3 +62,4 @@ set backspace=indent,eol,start
 hi CursorLine cterm=NONE ctermbg=darkgrey
 hi CursorColumn cterm=NONE ctermbg=darkgrey
 
+autocmd FileType make set noexpandtab 
