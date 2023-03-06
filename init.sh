@@ -1,11 +1,12 @@
-#!/bin/bash
+#!/bin/sh
+#
 
-set -e
-echo -e "installing the configure of vim"
-sh ./install_vim.sh
-echo -e "installing the configure of tmux"
-sh ./install_tmux.sh
-echo -e "installing pyenv"
-sh ./install_pyenv.sh
-echo "installing the configure of neovim"
-sh ./install_nvim.sh
+repo='https://your.repo.git'
+
+git clone $repo dotfile
+
+if [[ ! -e "$HOME/.config" ]]
+then
+    echo "$HOME/.config do not exist, will create it"
+    mkdir -p "$HOME/.config"
+fi
